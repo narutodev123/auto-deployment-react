@@ -21,13 +21,13 @@ export default function BasicExample() {
       <div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">New App</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">New About Us</Link>
           </li>
           <li>
-            <Link to="/dashboard">Dashboard</Link>
+            <Link to="/dashboard">New Dashboard</Link>
           </li>
         </ul>
 
@@ -60,7 +60,7 @@ export default function BasicExample() {
 function Home() {
   return (
     <div>
-      <h2>Home</h2>
+      <h2>New Home APP</h2>
     </div>
   );
 }
@@ -68,7 +68,7 @@ function Home() {
 function About() {
   return (
     <div>
-      <h2>About</h2>
+      <h2>New About Us Page</h2>
     </div>
   );
 }
@@ -76,7 +76,7 @@ function About() {
 function Dashboard() {
   return (
     <div>
-      <h2>Dashboard</h2>
+      <h2>New Dashboard Page</h2>
     </div>
   );
 }
