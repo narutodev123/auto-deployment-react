@@ -17,7 +17,7 @@ import {
 
 export default function BasicExample() {
   return (
-    <Router>
+    <Router basename="/react-app">
       <div>
         <ul>
           <li>
